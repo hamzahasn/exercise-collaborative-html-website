@@ -1,7 +1,7 @@
 <!-- your html code here -->
 <section class="contact-selector">
     <div>
-        <h4> Contact </h4><br>
+        <h4> Contact</h4><br>
         <ol>
             <li>Get In Touch. Whether you're looking for a demo, have a commercial or support question, get in touch.</il>
             <li>Call Us. U.S. +1 (855)247 3232. Europe +353 1 2479000(IRL) +44 203 3285053(UK) 36E Main St., Suite 201, Norristown, PA 19401. U.S.A. ...</il>
@@ -11,13 +11,17 @@
     </div>
     <div class="container">
         <form>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div class="form-group row">
+                <div class="col-2">
+                    <label for="exampleInputEmail1" style="border-left-width: 50px;padding-top: 10px;padding-left: 50px">Email address</label>
+                </div>
+                <div class="col-10">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email..">
+                </div>
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Please enter your message here">
             </div>
             <div class="submit-button">
             <button type="submit" class="btn btn-primary">Submit</button>
