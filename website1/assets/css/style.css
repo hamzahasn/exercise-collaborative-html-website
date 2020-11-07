@@ -1,3 +1,16 @@
 body{
     background: #BDBDBD;
 }
+
+.portfolio-section .card {
+    width: 18rem; 
+    background: none; 
+    border: none;
+
+}
+
+.portfolio-section .card .img-cover {
+    object-fit: cover;
+    width: 100%;
+    height: 250px; 
+}
