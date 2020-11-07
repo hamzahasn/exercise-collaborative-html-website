@@ -1,5 +1,5 @@
 body{
-    background: #BDBDBD;
+    background: white;
 }
 
 
@@ -9,16 +9,52 @@ body{
     background: white;
 }
 
+.contact-head {
+
+    margin-left: 200px;
+}
 .contact-selector .container {
 
   margin: 0 auto;
   width: 1000px;
   border-radius: 5px;
   background-color: whitesmoke;
-  padding: 20px;
+  padding: 20px; 
 }
 
 .contact-selector .container .submit-button {
 
     margin-left: 93%; 
+.tagline {
+      background: url("https://raw.githubusercontent.com/hamzahasn/exercise-collaborative-html-website/8670ad32cd75223b32ff0f4ded38e2252455a0d0/website1/assets/img/bg.jpg") center bottom no-repeat;
+    text-align: center;
+    background-size: cover;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+   justify-content: center;
+ 
+}
+
+.tagline h1, .tagline h2 {
+    width: 100%;
+}
+.tagline h1 {
+    font-size: 6rem;
+}
+.tagline h2 {
+    font-size: 4rem;
+
+.portfolio-section .card {
+    width: 18rem; 
+    background: none; 
+    border: none;
+
+}
+
+.portfolio-section .card .img-cover {
+    object-fit: cover;
+    width: 100%;
+    height: 250px; 
 }
