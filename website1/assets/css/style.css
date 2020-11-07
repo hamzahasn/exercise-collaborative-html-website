@@ -1,3 +1,24 @@
 body{
     background: #BDBDBD;
 }
+.tagline {
+      background: url("https://raw.githubusercontent.com/hamzahasn/exercise-collaborative-html-website/8670ad32cd75223b32ff0f4ded38e2252455a0d0/website1/assets/img/bg.jpg") center bottom no-repeat;
+    text-align: center;
+    background-size: cover;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+   justify-content: center;
+ 
+}
+
+.tagline h1, .tagline h2 {
+    width: 100%;
+}
+.tagline h1 {
+    font-size: 6rem;
+}
+.tagline h2 {
+    font-size: 4rem;
+}
