@@ -21,4 +21,16 @@ body{
 }
 .tagline h2 {
     font-size: 4rem;
+
+.portfolio-section .card {
+    width: 18rem; 
+    background: none; 
+    border: none;
+
+}
+
+.portfolio-section .card .img-cover {
+    object-fit: cover;
+    width: 100%;
+    height: 250px; 
 }
