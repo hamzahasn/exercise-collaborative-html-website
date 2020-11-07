@@ -1,6 +1,30 @@
 body{
-    background: #BDBDBD;
+    background: white;
 }
+
+
+.contact-selector {
+
+    font-family: Arial; 
+    background: white;
+}
+
+.contact-head {
+
+    margin-left: 200px;
+}
+.contact-selector .container {
+
+  margin: 0 auto;
+  width: 1000px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 20px; 
+}
+
+.contact-selector .container .submit-button {
+
+    margin-left: 93%; 
 .tagline {
       background: url("https://raw.githubusercontent.com/hamzahasn/exercise-collaborative-html-website/8670ad32cd75223b32ff0f4ded38e2252455a0d0/website1/assets/img/bg.jpg") center bottom no-repeat;
     text-align: center;
